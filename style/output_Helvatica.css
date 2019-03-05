@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Helvatica, sans-serif;
+}
+.rows{
+	display: flex;
+	box-sizing: border-box;
+	border-left: 0.5px solid black;
+	
+
+}
+.rows div{
+	display: inline-block;
+	flex:1;
+	text-align: center;
+	border-right: 0.5px solid black;
+}
+.ids{
+	border-top: 0.5px solid black;
+	padding-top: 0.5vw;
+
+}
+#container{
+	padding:1vw;
+}
+h1{
+	font-size: 9.5vw;
+	font-weight: normal;
+	line-height: 1.2em;
+	color:blue;
+}
+h2{
+	font-size: 1vw;
+	font-weight: normal;
+	/*background-color: white;*/
+}
+
+.vals{
+	margin-bottom: 2vw;
+}
+/*.vals div:hover{
+	background-color: yellow;
+}*/
